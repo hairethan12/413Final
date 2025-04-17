@@ -27,7 +27,7 @@ const AddEntertainer: React.FC = () => {
     e.preventDefault();
     // posting the new entertainer to the database
     const response = await fetch(
-      'https://backendfinal413hair-hucgcqb5a5ebcjdx.eastus-01.azurewebsites.net/api/entertainers',
+      'https://hair413finalbackend-bfgbgxhpg2cef8gh.eastus-01.azurewebsites.net/api/entertainers',
       {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },

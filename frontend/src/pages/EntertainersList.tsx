@@ -18,7 +18,7 @@ const EntertainersList: React.FC = () => {
   // get entertainers from backend
   useEffect(() => {
     fetch(
-      'https://backendfinal413hair-hucgcqb5a5ebcjdx.eastus-01.azurewebsites.net/api/entertainers/summary'
+      'https://hair413finalbackend-bfgbgxhpg2cef8gh.eastus-01.azurewebsites.net/api/entertainers/summary'
     )
       .then((res) => res.json())
       .then((data) => setEntertainers(data))
