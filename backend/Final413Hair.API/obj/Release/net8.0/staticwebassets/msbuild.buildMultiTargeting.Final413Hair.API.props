@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Final413Hair.API.props" />
+</Project>
