@@ -25,7 +25,9 @@ const EntertainerDetails: React.FC = () => {
 
   //   grabs info from backend using their id
   useEffect(() => {
-    fetch(`http://localhost:5134/api/entertainers/${id}`)
+    fetch(
+      `https://413finalhair-dreadvexace0d7ev.eastus-01.azurewebsites.net/api/entertainers/${id}`
+    )
       .then((res) => res.json())
       .then((data) => setEntertainer(data))
       .catch((err) => console.error('Failed to fetch entertainer:', err));
@@ -38,9 +40,12 @@ const EntertainerDetails: React.FC = () => {
     );
     if (!confirmed) return;
 
-    const res = await fetch(`http://localhost:5134/api/entertainers/${id}`, {
-      method: 'DELETE',
-    });
+    const res = await fetch(
+      `https://413finalhair-dreadvexace0d7ev.eastus-01.azurewebsites.net/api/entertainers/${id}`,
+      {
+        method: 'DELETE',
+      }
+    );
 
     if (res.ok) {
       navigate('/entertainers');

@@ -26,11 +26,14 @@ const AddEntertainer: React.FC = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     // posting the new entertainer to the database
-    const response = await fetch('http://localhost:5134/api/entertainers', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(formData),
-    });
+    const response = await fetch(
+      'https://413finalhair-dreadvexace0d7ev.eastus-01.azurewebsites.net/api/entertainers',
+      {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      }
+    );
 
     if (response.ok) {
       navigate('/entertainers');

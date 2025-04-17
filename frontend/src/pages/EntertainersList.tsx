@@ -15,9 +15,11 @@ const EntertainersList: React.FC = () => {
   const [entertainers, setEntertainers] = useState<EntertainerSummary[]>([]);
   const navigate = useNavigate();
 
-// get entertainers from backend
+  // get entertainers from backend
   useEffect(() => {
-    fetch('http://localhost:5134/api/entertainers/summary')
+    fetch(
+      'https://413finalhair-dreadvexace0d7ev.eastus-01.azurewebsites.net/api/entertainers/summary'
+    )
       .then((res) => res.json())
       .then((data) => setEntertainers(data))
       .catch((err) => console.error('Error fetching entertainers:', err));
@@ -37,7 +39,7 @@ const EntertainersList: React.FC = () => {
           </tr>
         </thead>
         <tbody>
-            {/* map out the entertainers info from the json */}
+          {/* map out the entertainers info from the json */}
           {entertainers.map((entertainer) => (
             <tr key={entertainer.entertainerID} className="border-b">
               <td className="p-2">{entertainer.entStageName}</td>
