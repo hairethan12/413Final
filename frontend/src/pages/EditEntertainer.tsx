@@ -11,7 +11,7 @@ const EditEntertainer: React.FC = () => {
   //   grabs entertainers info by ID from backend
   useEffect(() => {
     fetch(
-      `https://413finalhair-dreadvexace0d7ev.eastus-01.azurewebsites.net/api/entertainers/${id}`
+      `https://backendfinal413hair-hucgcqb5a5ebcjdx.eastus-01.azurewebsites.net/api/entertainers/${id}`
     )
       .then((res) => res.json())
       .then((data) => setFormData(data));
@@ -26,7 +26,7 @@ const EditEntertainer: React.FC = () => {
     e.preventDefault();
 
     const res = await fetch(
-      `https://413finalhair-dreadvexace0d7ev.eastus-01.azurewebsites.net/api/entertainers/${id}`,
+      `https://backendfinal413hair-hucgcqb5a5ebcjdx.eastus-01.azurewebsites.net/api/entertainers/${id}`,
       {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },

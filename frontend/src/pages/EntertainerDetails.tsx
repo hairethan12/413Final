@@ -26,7 +26,7 @@ const EntertainerDetails: React.FC = () => {
   //   grabs info from backend using their id
   useEffect(() => {
     fetch(
-      `https://413finalhair-dreadvexace0d7ev.eastus-01.azurewebsites.net/api/entertainers/${id}`
+      `https://backendfinal413hair-hucgcqb5a5ebcjdx.eastus-01.azurewebsites.net/api/entertainers/${id}`
     )
       .then((res) => res.json())
       .then((data) => setEntertainer(data))
@@ -41,7 +41,7 @@ const EntertainerDetails: React.FC = () => {
     if (!confirmed) return;
 
     const res = await fetch(
-      `https://413finalhair-dreadvexace0d7ev.eastus-01.azurewebsites.net/api/entertainers/${id}`,
+      `https://backendfinal413hair-hucgcqb5a5ebcjdx.eastus-01.azurewebsites.net/api/entertainers/${id}`,
       {
         method: 'DELETE',
       }

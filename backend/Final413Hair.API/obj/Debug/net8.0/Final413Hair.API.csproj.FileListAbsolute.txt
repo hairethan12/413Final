@@ -79,3 +79,9 @@ C:\Users\ethan\OneDrive\Documents\Final413Hair\backend\Final413Hair.API\obj\Debu
 C:\Users\ethan\OneDrive\Documents\Final413Hair\backend\Final413Hair.API\obj\Debug\net8.0\ref\Final413Hair.API.dll
 C:\Users\ethan\OneDrive\Documents\Final413Hair\backend\Final413Hair.API\obj\Debug\net8.0\Final413Hair.API.sourcelink.json
 C:\Users\ethan\OneDrive\Documents\Final413Hair\backend\Final413Hair.API\bin\Debug\net8.0\EntertainmentAgencyExample.sqlite
+C:\Users\ethan\OneDrive\Documents\Final413Hair\backend\Final413Hair.API\bin\Debug\net8.0\publish\web.config
+C:\Users\ethan\OneDrive\Documents\Final413Hair\backend\Final413Hair.API\bin\Debug\net8.0\publish\appsettings.Development.json
+C:\Users\ethan\OneDrive\Documents\Final413Hair\backend\Final413Hair.API\bin\Debug\net8.0\publish\appsettings.json
+C:\Users\ethan\OneDrive\Documents\Final413Hair\backend\Final413Hair.API\bin\Debug\net8.0\publish\Final413Hair.API.deps.json
+C:\Users\ethan\OneDrive\Documents\Final413Hair\backend\Final413Hair.API\bin\Debug\net8.0\publish\Final413Hair.API.runtimeconfig.json
+C:\Users\ethan\OneDrive\Documents\Final413Hair\backend\Final413Hair.API\bin\Debug\net8.0\publish\Final413Hair.API.staticwebassets.endpoints.json
