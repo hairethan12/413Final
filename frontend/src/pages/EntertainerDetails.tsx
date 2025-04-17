@@ -54,11 +54,6 @@ const EntertainerDetails: React.FC = () => {
     }
   };
 
-  //   This handles the edit
-  const handleEdit = () => {
-    navigate(`/entertainers/edit/${id}`);
-  };
-
   if (!entertainer) return <div className="p-6">Loading...</div>;
 
   return (
